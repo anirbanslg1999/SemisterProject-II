@@ -127,40 +127,40 @@ TextureImporter:
     second: sprite1_40
   - first:
       213: 2921847450115467854
-    second: sprite1_41
+    second: link_attack_front_00
   - first:
       213: 2748361677866857419
-    second: sprite1_42
+    second: link_attack_front_01
   - first:
       213: 4264065706642179352
-    second: sprite1_43
+    second: link_attack_front_02
   - first:
       213: 3216384913305390152
-    second: sprite1_44
+    second: link_attack_front_03
   - first:
       213: 6857527094556009565
-    second: sprite1_45
+    second: link_attack_front_04
   - first:
       213: -1820284446932992038
-    second: sprite1_46
+    second: link_attack_front_05
   - first:
       213: -4525101688337471173
     second: sprite1_47
   - first:
       213: 6642147637648838889
-    second: sprite1_48
+    second: link_attack_left_00
   - first:
       213: -6050230100811687553
-    second: sprite1_49
+    second: link_attack_left_01
   - first:
       213: -8083297454989872546
-    second: sprite1_50
+    second: link_attack_left_02
   - first:
       213: -2933644722936500842
-    second: sprite1_51
+    second: link_attack_left_03
   - first:
       213: -6200504348235218164
-    second: sprite1_52
+    second: link_attack_left_04
   - first:
       213: 5109168821098452212
     second: sprite1_53
@@ -247,34 +247,34 @@ TextureImporter:
     second: sprite1_80
   - first:
       213: 6140490209509636324
-    second: sprite1_81
+    second: link_attack_back_00
   - first:
       213: 398635710837145962
-    second: sprite1_82
+    second: link_attack_back_01
   - first:
       213: 5190811197613189353
-    second: sprite1_83
+    second: link_attack_back_02
   - first:
       213: -2543173984870992732
-    second: sprite1_84
+    second: link_attack_back_03
   - first:
       213: 20664381163077412
-    second: sprite1_85
+    second: link_attack_back_04
   - first:
       213: 2723206460208833399
-    second: sprite1_86
+    second: link_attack_right_00
   - first:
       213: -1365713890331170130
-    second: sprite1_87
+    second: link_attack_right_01
   - first:
       213: 5029568807476719775
-    second: sprite1_88
+    second: link_attack_right_02
   - first:
       213: -227001044462692015
-    second: sprite1_89
+    second: link_attack_right_03
   - first:
       213: -4100542099691876476
-    second: sprite1_90
+    second: link_attack_right_04
   - first:
       213: 5393341891624287942
     second: sprite1_91
@@ -946,8 +946,8 @@ TextureImporter:
       name: link_run_left_00
       rect:
         serializedVersion: 2
-        x: 241
-        y: 334
+        x: 240
+        y: 333
         width: 19
         height: 24
       alignment: 0
@@ -1342,7 +1342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_41
+      name: link_attack_front_00
       rect:
         serializedVersion: 2
         x: 1
@@ -1363,7 +1363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_42
+      name: link_attack_front_01
       rect:
         serializedVersion: 2
         x: 30
@@ -1384,7 +1384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_43
+      name: link_attack_front_02
       rect:
         serializedVersion: 2
         x: 61
@@ -1405,7 +1405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_44
+      name: link_attack_front_03
       rect:
         serializedVersion: 2
         x: 91
@@ -1426,7 +1426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_45
+      name: link_attack_front_04
       rect:
         serializedVersion: 2
         x: 115
@@ -1447,7 +1447,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_46
+      name: link_attack_front_05
       rect:
         serializedVersion: 2
         x: 145
@@ -1489,11 +1489,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_48
+      name: link_attack_left_00
       rect:
         serializedVersion: 2
-        x: 242
-        y: 275
+        x: 241
+        y: 274
         width: 18
         height: 23
       alignment: 0
@@ -1510,11 +1510,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_49
+      name: link_attack_left_01
       rect:
         serializedVersion: 2
         x: 268
-        y: 274
+        y: 275
         width: 26
         height: 24
       alignment: 0
@@ -1531,7 +1531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_50
+      name: link_attack_left_02
       rect:
         serializedVersion: 2
         x: 295
@@ -1552,7 +1552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_51
+      name: link_attack_left_03
       rect:
         serializedVersion: 2
         x: 327
@@ -1573,7 +1573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_52
+      name: link_attack_left_04
       rect:
         serializedVersion: 2
         x: 359
@@ -2182,7 +2182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_81
+      name: link_attack_back_00
       rect:
         serializedVersion: 2
         x: 0
@@ -2203,7 +2203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_82
+      name: link_attack_back_01
       rect:
         serializedVersion: 2
         x: 30
@@ -2224,7 +2224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_83
+      name: link_attack_back_02
       rect:
         serializedVersion: 2
         x: 61
@@ -2245,11 +2245,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_84
+      name: link_attack_back_03
       rect:
         serializedVersion: 2
         x: 89
-        y: 181
+        y: 182
         width: 24
         height: 30
       alignment: 0
@@ -2266,10 +2266,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_85
+      name: link_attack_back_04
       rect:
         serializedVersion: 2
-        x: 115
+        x: 116
         y: 185
         width: 32
         height: 23
@@ -2287,7 +2287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_86
+      name: link_attack_right_00
       rect:
         serializedVersion: 2
         x: 242
@@ -2308,7 +2308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_87
+      name: link_attack_right_01
       rect:
         serializedVersion: 2
         x: 268
@@ -2329,11 +2329,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_88
+      name: link_attack_right_02
       rect:
         serializedVersion: 2
         x: 295
-        y: 186
+        y: 185
         width: 31
         height: 21
       alignment: 0
@@ -2350,7 +2350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_89
+      name: link_attack_right_03
       rect:
         serializedVersion: 2
         x: 327
@@ -2371,7 +2371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite1_90
+      name: link_attack_right_04
       rect:
         serializedVersion: 2
         x: 359

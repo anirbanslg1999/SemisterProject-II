@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,10 +7,12 @@ public class PlayerInput : MonoBehaviour
 {
     public enum MoveDirection
     {
-        Front, Back , Left, Right
+        Front, Back , Left, Right, Max
     }
     [SerializeField]
     float moveSpeed;
+    [SerializeField]
+    List<BoxCollider2D> m_collider = new List<BoxCollider2D>();
 
     float xHorizontalInput;
     float yVerticalInput;
@@ -20,6 +23,7 @@ public class PlayerInput : MonoBehaviour
     Rigidbody2D rb2d;
     Animator animator;
     MoveDirection moveDirection = MoveDirection.Front;
+    public bool isAttacking = false;
 
     private void Awake()
     {
@@ -32,6 +36,19 @@ public class PlayerInput : MonoBehaviour
     {
         UpdateMovement();
         UpdateDirection();
+        if (Input.GetMouseButtonDown(0))
+        {
+            isAttacking = true;
+            UpdateAttacking();
+        }
+        DisplayCollider();
+    }
+    void UpdateAttacking()
+    {
+        if (animator)
+        {
+            animator.SetBool("IsAttacking", isAttacking);
+        }
     }
 
     void UpdateDirection()
@@ -77,6 +94,34 @@ public class PlayerInput : MonoBehaviour
             rb2d.MovePosition(rb2d.position + velocityInput * Time.deltaTime);
         }
     }
+    public void SetAttacking(bool m_isAttacking)
+    {
+        isAttacking = m_isAttacking;
+        UpdateAttacking();
+
+    }
+    public void DisplayCollider()
+    {
+        if (isAttacking)
+        {
+            ActivateCollider();
+        }
+        else 
+        { 
+            DeactivateAllCollider();
+        }
+    }
 
 
+    private void ActivateCollider()
+    {
+        m_collider[(int)moveDirection].enabled = true;
+    }
+    private void DeactivateAllCollider()
+    {
+        for (int index = 0; index < (int)MoveDirection.Max; index++)
+        {
+            m_collider[index].enabled = false;
+        }
+    }
 }
